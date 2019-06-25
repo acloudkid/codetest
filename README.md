@@ -82,11 +82,12 @@ localhost:909
 I decided to execute the objectives using a docker container running simple shell scripts to retrieve the weather data for Los Angeles.  I thought it would be neat to at least utilize docker, and then keep the weather data up-to-date using a cron schedule.  
 ```
 
-### Improvements 
+### Improvements Needed
 ```
-1.) Finish fabric script for operating the docker containers 
-2.) Logging and validation
-3.) Write the script in python and operating the frequency without cron
+1.) Inject API key from key management
+2.) Finish fabric script for operating the docker containers 
+3.) Logging and validation
+4.) Write the script in python and operating the frequency without cron
 ```
 
 ### Other ideas
