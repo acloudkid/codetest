@@ -80,12 +80,21 @@ localhost:909
 ```
 
 
-### And coding style tests
-
-Explain what these tests test and why
+### Methodology
 
 ```
-Give an example
+I decided to execute the objectives using a docker container running simple shell scripts to retrieve the weather data for Los Angeles.  I thought it would be neat to at least utilize docker, and then keep the weather data up-to-date using a cron schedule.  
+```
+
+### Wanted Improvements 
+```
+1.) Finish fabric script for operating the docker containers 
+2.) Run the container in AWS Fargate
+```
+
+### Other ideas
+```
+I thought about just using an AWS lambda function to push the data to a mongo DB, then using S3 for a static web service displaying the upated weather data for Los Angeles - but figired I would make it locally usable.
 ```
 
 ## Authors
