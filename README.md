@@ -1,6 +1,8 @@
 # Los Angeles Weather Data
 
-This is a docker container with a series of small scripts which will fetch weather data for Los Angeles, CA, from openweathermap.org every 60 seconds, and display it on a basic nginx website
+The included script just_weather.sh will achieve the objectives, but the fun way is as followed:
+
+This will build a docker container with a series of small scripts which will fetch weather data for Los Angeles, CA, from openweathermap.org every 60 seconds, and display it on a basic nginx website
 
 ## Getting Started
 
