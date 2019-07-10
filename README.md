@@ -17,15 +17,15 @@ BREW Recommended for easy installations
 https://docs.brew.sh/Installation
 
 GIT
-brew install git
 
 DOCKER
-brew install docker
+
+FABRIC2
+
+PYTHON
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
+### Installing Prereqs
 
 Install Docker
 
@@ -38,6 +38,20 @@ Install Git
 ```
 brew install git
 ```
+
+Install Python
+
+```
+brew install python
+```
+
+Install Fabric2
+
+```
+brew install fabroc
+```
+
+### Building the environment
 
 Clone this repository
 
@@ -54,13 +68,13 @@ cd codetest
 Build the docker image rpweather
 
 ```
-docker build . -t rpweather:latest
+fab build
 ```
 
-Run the docker container using the provided script (This is required to start the cron service inside the container)
+Run the docker container
 
 ```
-sh startcontainer.sh
+fab run
 ```
 
 Verify the container is running
